@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media screen and ( width < 400px ){
+    html div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+html {
+    font-family: "Roboto", serif;
+    margin: 0;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2% 5% 1%;
+}
+.phone {
+    color: rgb(199,3,15);
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Roboto, serif;
+}
+.logoImg1 {
+    width: 5%;
+    height: auto;
+}
+.logoImg2 {
+    width: 2%;
+    height: auto;
+}
+
+.menu {
+    background-color: rgb(241,242,236);
+    border-bottom: 2px rgb(230, 231, 225) solid;
+    border-top: 2px rgb(230, 231, 225) solid;
+
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.podMenu p {
+    padding: 0 3%;
+    color: rgb(199,3,15);
+    text-decoration: underline;
+}
+.podMenu p:first-child {
+    padding-left: 0;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.podMenu {
+    display: flex;
+}
+
+.form img {
+    width: 10%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.form input {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: auto;
+    border: none;
+    outline: none;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    border: 1px rgb(230, 231, 225) solid;
+    background-color: white;
+    padding: 0;
+    width: auto;
+}
+
+footer {
+    background-color: rgb(241,242,236);
+    border-bottom: 2px rgb(230, 231, 225) solid;
+    border-top: 2px rgb(230, 231, 225) solid;
+    padding: 0 5%;
+
+}
+.mainBlockFooter {
+    display: flex;
+
+}
+
+.mainBlockFooter img {
+    width: 15%;
+    height: auto;
+}
+
+.service .col {
+    display: flex;
+    width: auto;
+}
+
+.service .bold {
+    font-weight: bold;
+}
+
+.col div {
+    margin-right: 12%;
+}
+
+hr {
+    border: 1px solid rgb(230, 231, 225);
+    width: auto;
+}
+
+.social {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    flex-grow: 1;
+}
+.social img {
+    width: 20%;
+    padding: 5%;
+}
+.social img:first-child {
+    width: 11%;
+    padding: 5%;
+}
+.bonus {
+    flex-grow: 3;
+}
+.service {
+    flex-grow: 2;
+}
+.bonus .t1 {
+    display: flex;
+}
+.bonus .t1 .del {
+    width: 9%;
+    padding-right: 2%;
+}
+.bonus .t1 .sam {
+    width: 7%;
+    padding-right: 2%;
+    margin-left: 2%;
+}
+.bonus .t1 .cup {
+    width: 5%;
+    padding-right: 2%;
+    margin-left: 3%;
+}
+
+.service {
+    flex-basis: 35%;
+}
+.bonus {
+    flex-basis: 35%;
+    padding-top: 0.5%;
+}
+.social {
+    flex-basis: 10%;
+    padding-top: 0.5%;
+}
+.mainBlockFooter {
+    padding: 2% 0 2%;
+}
+
+
+.menu2 {
+    display: flex;
+    padding: 2% 5% 0;
+}
+.menu2 p:nth-child(1), .menu2 p:nth-child(3) {
+    color: rgb(199,3,15);
+    text-decoration: underline;
+}
+
+
+.blockItem {
+    display: flex;
+    padding-bottom: 10%;
+
+}
+.blockItem img {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.imgItem {
+    flex-basis: 50%;
+}
+.infoItem {
+    flex-basis: 50%;
+}
+.infoItem p:first-child {
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+}
+.infoItem p:nth-child(3) {
+    color: rgb(199,3,15);
+    font-weight: bold;
+    font-size: 200%;
+}
+.size, .color {
+    display: flex;
+}
+.size div {
+    border: 2px solid rgb(195,195,195);
+    padding: 1% 2%;
+    margin: 0.3%;
+    font-size: 250%;
+    cursor: pointer;
+}
+.color div {
+    border: 2px solid rgb(195,195,195);
+    padding: 3% 3.3%;
+    margin: 0.6%;
+    cursor: pointer;
+}
+
+.color div:first-child, .size div:first-child {
+    border-color: rgb(199,3,15);
+}
+
+.white {
+    background-color: rgb(255,251,252);
+    color: rgb(255,251,252);
+}
+.yellow {
+    background-color: rgb(226,218,83);
+    color: rgb(226,218,83);
+}
+.green {
+    background-color: rgb(165,175,150);
+    color: rgb(165,175,150);
+}
+.size div:first-child, .color div {
+    margin-left: 0;
+}
+.size div:nth-child(2) {
+    padding: 1% 1.5%;
+}
+.like {
+    display: flex;
+    color: grey;
+    text-decoration: underline;
+    align-items: center;
+    cursor: pointer;
+}
+.like img {
+    width: 3%;
+    height: 3%;
+    padding: 0 0.5% 0 0;
+}
+
+.buyButton {
+    background-color: rgb(199,3,15);
+    color: white;
+    padding: 2% 7.4%;
+    font-size: 140%;
+    margin: 3% 0;
+    border: none;
+    cursor: pointer;
+}
